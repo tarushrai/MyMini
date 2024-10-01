@@ -1,0 +1,9 @@
+Building the Docker Image :
+docker build -t mental-health-chatbot-backend .
+
+Run the Docker container :
+docker build -t mental-health-chatbot-backend .
+
+For the frontend :
+docker build -t mental-health-chatbot-frontend .
+docker run -p 3000:3000 mental-health-chatbot-frontend
