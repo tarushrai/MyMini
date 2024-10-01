@@ -64,6 +64,8 @@ def reset_conversation():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# Multilingual Support (Translation)
 from googletrans import Translator
 
 # Initialize Google Translate API
